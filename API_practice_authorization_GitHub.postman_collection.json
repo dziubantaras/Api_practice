@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "101db589-f9ba-438c-8a7f-c327689b9d13",
+		"name": "API_practice_authorization_GitHub",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "7557804"
+	},
+	"item": [
+		{
+			"name": "create repositiry",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": {
+						"addTokenTo": "header"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Api_practice\",\r\n    \"description\": \"This is test repository created from Postman\",\r\n    \"homepage\": \"https://github.com/\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://api.github.com/user/repos"
+			},
+			"response": []
+		}
+	]
+}
