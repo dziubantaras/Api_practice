@@ -13,11 +13,9 @@ In this collections placed commononly-used API calls to a free REST API 'https:/
   
 > Registering a user and receiving a token in the response body. Received token saved into a variable for further using.
 
-  '''
-    const MyData  = pm.response.json();
+  '''    const MyData  = pm.response.json();
     pm.environment.set('token', MyData.token)
-  
-  '''
+    '''
   
 * POST Create User
 * GET Get User List
