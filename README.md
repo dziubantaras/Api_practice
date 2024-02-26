@@ -1,13 +1,13 @@
 Api_practice
 ============
 
-This is test repository created from Postman. In this repository placed 3 Postman collections. Detailed descriptions with a list of CRUD operations you can see below.
+This is testing repository created from Postman. In this repository placed 3 Postman collections. Detailed descriptions with a list of CRUD operations you can see below.
 
 
 Practice_2023_https---reqres.in-.postman_collection
 ---------------------------------------------------
 
-In this collections placed commononly-used API calls to a free REST API 'https://reqres.in/' with a basik assertions and variables.
+In this collections placed commonnly-used API calls to a free REST API 'https://reqres.in/' with a basik assertions and variables.
 
 * POST Register User
   
@@ -31,7 +31,7 @@ In this collections placed commononly-used API calls to a free REST API 'https:/
 Petstore.postman_collection
 ---------------------------
 
-In this collection placed commononly-used API calls to a free REST API 'https://petstore.swagger.io/'
+In this collection placed commonly-used API calls to a free REST API 'https://petstore.swagger.io/'
 
 * POST Create new pet
 * GET Get a pet by id
