@@ -11,17 +11,25 @@ In this collections placed commonnly-used API calls to a free REST API 'https://
 
 * POST Register User
   
-> Registering a user and receiving a token in the response body. Received token saved into a variable for further using.
+> Registering a user and receiving a token in the response body. Received token and user ID saved into a variable for further using.
 
  ```JavaScript
-     const MyData  = pm.response.json();
-     pm.environment.set('token', MyData.token)
+// Parse the response body as JSON
+var responseBody = pm.response.json();
+
+// Extract the user ID from the response body
+var userId = responseBody.id;
+var my_token = responseBody.token;
+
+// Save the user ID to an environment variable
+pm.environment.set("userId", userId);
+pm.environment.set("my_token", my_token);
 ``` 
   
 * POST Create User
 * GET Get User List
   
-> Getting a list of users using authorization token, received during registering. __Token added into Headers section and for some reasons is not visible in saved collection.__
+> Getting a list of users using authorization token, received during registering. 
   
 * PUT Update User
 * DEL Delete User
