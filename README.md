@@ -44,7 +44,7 @@ In this collection placed commonly-used API calls to a free REST API 'https://pe
 * POST Create new pet
 * GET Get a pet by id
 * PUT Update a pet
-* POST Upload an image to existing pet account
+* POST Upload an image to existing pet account - For correct work download the image from remote repository by link "https://github.com/dziubantaras/Api_practice/blob/main/Iron.jpg?raw=true" and use a local path to a file.
 * GET Get pets by status
 * DEL Delete a pet
 
