@@ -11,7 +11,7 @@ In this collections placed commonnly-used API calls to a free REST API 'https://
 
 * POST Register User
   
-> Registering a user and receiving a token in the response body. Received token and user ID saved into a variable for further using.
+  > Registering a user and receiving a token in the response body. Received token and user ID saved into a variable for further using.
 
  ```JavaScript
 // Parse the response body as JSON
@@ -29,7 +29,7 @@ pm.environment.set("my_token", my_token);
 * POST Create User
 * GET Get User List
   
-> Getting a list of users using authorization token, received during registering. 
+  > Getting a list of users using authorization token, received during registering. 
   
 * PUT Update User
 * DEL Delete User
@@ -44,7 +44,8 @@ In this collection placed commonly-used API calls to a free REST API 'https://pe
 * POST Create new pet
 * GET Get a pet by id
 * PUT Update a pet
-* POST Upload an image to existing pet account - For correct work download the image from remote repository by link "https://github.com/dziubantaras/Api_practice/blob/main/Iron.jpg?raw=true" and use a local path to a file.
+* POST Upload an image to existing pet account
+  > For correct work download the image from remote repository by link "https://github.com/dziubantaras/Api_practice/blob/main/Iron.jpg?raw=true" and use a local path to a file
 * GET Get pets by status
 * DEL Delete a pet
 
